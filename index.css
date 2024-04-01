@@ -1,0 +1,48 @@
+.popular_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.tour_item {
+  padding: 300px 18px 40px;
+  color: white;
+  background-size: cover;
+  border-radius: 10px;
+
+  color: white;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.tour_item h3 {
+  color: var(--yellow, #ffc700);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 2px 0 10px;
+}
+
+.tour_item p {
+  margin-bottom: 35px;
+}
+
+.tour_item .btn {
+  border-radius: 40px;
+  border: 0;
+  color: white;
+  background: linear-gradient(135deg, rgb(4, 153, 221), rgb(23, 193, 188) 100%);
+  margin-top: auto;
+  width: 160px;
+  height: 40px;
+  font-size: 12px;
+}
